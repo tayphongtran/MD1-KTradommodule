@@ -1,20 +1,20 @@
 // câu1
-// let a = +prompt('nhập hệ số a vào')
-// let b = +prompt('nhập hệ số b vào')
-//
-// function ptbn() {
-//     let c = -b/ a
-//     if (a==0&& b!=0){
-//         alert('pt vô nghiệm')
-//
-//     }
-//     if (a==0&& b==0){
-//         alert('pt vô số nghiệm')
-//     }
-//     return c
-// }
-//
-// ptbn(a, b);
+let a = +prompt('nhập hệ số a vào')
+let b = +prompt('nhập hệ số b vào')
+
+function ptbn() {
+    let c = -b/ a
+    if (a==0&& b!=0){
+        alert('pt vô nghiệm')
+
+    }
+    if (a==0&& b==0){
+        alert('pt vô số nghiệm')
+    }
+    return document.writeln('nghiệm ptbn = ' + c)
+}
+
+ptbn(a, b);
 
 // cau 2;
 // let arr = [11,2,23,4,5,6,7,15];

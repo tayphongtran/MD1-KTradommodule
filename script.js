@@ -51,21 +51,21 @@
 // cau3 Viết chương trình nhập vào một chuỗi bất kỳ. Gọi hàm tìm số ký tự nguyên
 // âm vừa xây dựng ở trên
 
-let nhap =prompt("Nhap một chuỗi bất kỳ")
-let arr = nhap.split('')
-function timgnuyenam() {
-    let count = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] == "a" || arr[i] == "o" || arr[i] ==  "e" || arr[i] ==  "u" || arr[i] =="i") {
-            count++
-            document.writeln('na o vị trí = ' + count)
-        }else {
-            count++
-            alert('phu am ')
-        }
-    }
-}
-timgnuyenam(arr);
+// let nhap =prompt("Nhap một chuỗi bất kỳ")
+// let arr = nhap.split('')
+// function timgnuyenam() {
+//     let count = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] == "a" || arr[i] == "o" || arr[i] ==  "e" || arr[i] ==  "u" || arr[i] =="i") {
+//             count++
+//             document.writeln('na o vị trí = ' + count)
+//         }else {
+//             count++
+//             alert('phu am ')
+//         }
+//     }
+// }
+// timgnuyenam(arr);
 
 //cau 4
 
